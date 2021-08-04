@@ -243,7 +243,31 @@ export default {
     padding-top: 50px;
   }
 }
+@media (max-width: 840px) {
+  .discountsBlock p {
+    font-size: 14px;
+  }
+  .discountsBlock h1 {
+    font-size: 20px;
+  }
+  .discountsBlock h2 {
+    font-size: 20px;
+  }
+  .purchaseBtn {
+    padding: 18px 65px;
+    font-size: 28px;
+  }
+}
 @media (max-width: 640px) {
+  .discountsBlock p {
+    font-size: 16px;
+  }
+  .discountsBlock h1 {
+    font-size: 24px;
+  }
+  .discountsBlock h2 {
+    font-size: 24px;
+  }
   .discountsBlock {
     display: grid;
     grid-template-columns: 1fr;

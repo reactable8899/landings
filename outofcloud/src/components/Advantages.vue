@@ -71,7 +71,7 @@ export default {
 .ourAdvantages {
   max-width: 1170px;
   margin: 0 auto;
-  padding: 0 30px
+  padding: 0 30px;
 }
 .advantages {
   display: grid;
